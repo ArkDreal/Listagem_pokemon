@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #606060;
+    top: 0;
+}
+
+main{
+    width: 100%;
+    height: 56.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2B33;
+}
+
+p{
+    width: 8rem;
+    height: 8rem;
+    font-family: Poppins;
+    font-size: small;
+    overflow-y: scroll;
+}
+
+span{
+    font-family: Poppins;
+    font-size: small;
+}
+
+li {
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: small;
+}
+
+/* body::-webkit-scrollbar-thumb {
+    background-color:rgb(155, 155, 155);  
+    border-radius: 20px;       
+    border: 3px solid ;  
+} */
+
+/* Header */
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+
+.botao_tema{
+    width: 3rem;
+    height: 3rem;
+}
+
+.icons{
+    width: 20rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Lista de Pokémons */
+.cartao_pokemon{
+    width: 13rem;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #606060;
+    border-radius: 2rem;
+    border: solid #BFBFBF;
+}
+
+
+.informacoes{
+    width: 8rem;
+    height: 4rem;
+    border: solid #BFBFBF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif{
+    width: 5rem;
+    height: 5rem;
+}
+
+.listagem_pokemon{
+    width: 70rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #606060;
+    border-radius: 2rem;
+    overflow-x: scroll;
+    justify-content: center;
+}
+
+.fileira_cartoes{
+    width: 100rem;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Tipos Pokémon */
+.tipos_pokemon{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tipo_grama{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.tipo_veneno{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.tipo_agua{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.tipo_fogo{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.tipo_voador{
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
