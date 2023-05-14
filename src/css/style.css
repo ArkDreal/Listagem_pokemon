@@ -127,13 +127,13 @@ li {
 }
 
 .cartao-pokemon:hover{
-    background-color: #f1f1f1;
+    background-color: #96d9d6;
     height: 23rem;
     width: 17rem;
 }
 
 .modo-escuro .cartao-pokemon:hover{
-    background-color: #96d9d6;
+    background-color: #f1f1f1;
     height: 23rem;
     width: 17rem;
 }
